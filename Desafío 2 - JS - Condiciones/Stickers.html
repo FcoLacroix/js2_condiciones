@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>Item 2</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Francisco Peñaloza</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./index.html">Item 1</a>
+              <a class="nav-link active" aria-current="page" href="./Stickers.html">Item 2</a>
+              <a class="nav-link" href="./password.html">Item 3</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+  <main>
+      <h3 class="titulo_stickers"> Lleva hasta 10 stickers </h3>
+      <div class="container_stickers">
+            <div class="container_img_number">
+                <img src="./assets/imgs/Sticker_1.jpg" class="flex_img" alt=""/>
+                <input type="number" min="0" name="" id="p1" class="flex-item" />
+            </div>
+            <div class="container_img_number">
+                <img src="./assets/imgs/Sticker_2.png" class="flex_img" alt=""/>
+                <input type="number" min="0" name="" id="p2" class="flex-item" />
+            </div>
+            <div class="container_img_number">
+                <img src="./assets/imgs/Sticker_3.png" class="flex_img" alt=""/>
+                <input type="number" min="0" name="" id="p3" class="flex-item" />
+            </div>
+        </div>
+        <div class="container_calcular">
+        <span class="texto__stickers"></span>
+        <button class="texto__stickers" onclick="calcular()" type="button" id="calcular__stickers" class="btn btn-outline-info btn-lg">Calcular</button>
+      </div>
+      <p id="result"></p>
+  </main>
+<script src="./assets/js/stickers.js"></script>
+    
+</body>
+</html>

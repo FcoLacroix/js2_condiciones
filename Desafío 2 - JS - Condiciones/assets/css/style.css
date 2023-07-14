@@ -1,0 +1,79 @@
+
+.container_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo_stickers{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container_stickers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.container_img_number{
+    margin: auto 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_stickers{
+    margin-bottom: 50px
+
+}
+
+.flex_img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+
+.container_calcular{
+    display: flex;
+    justify-content: center;
+}
+
+.texto__stickers{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 15px;
+    border-radius: 5%;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+
+.body_password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
